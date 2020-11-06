@@ -1,0 +1,33 @@
+<!--pages/tdetails/tdetails.wxml-->
+<view class="main">
+  <!--top pictures-->
+  <view class="topthumb">
+    <image src="http://usjus.org/wp-content/uploads/2016/10/header.jpg" mode="scaleToFill"></image>
+  </view>
+  <!--top pictures-->
+
+  <!--teachers lists 课程列表-->
+  <view class="utitle">
+    <view class="mtitle">USJ Instructors Team</view>
+  </view> 
+
+  <view class="introduct">
+    <view class="inner">
+      <block wx:for-items="{{courses}}" wx:key="{{item.id}}">
+        <navigator wx:if="{{item.id % 2 != 0}}" class="pleft" url="/pages/teacher/teacher?id={{item.id}}">
+          <image src="{{item.thumb}}" mode="scaleToFill"></image>
+          <view class="iname">{{item.name}}</view>
+        </navigator>
+        
+        <navigator wx:if="{{item.id % 2 == 0}}" class="pright" url="/pages/advisors/advisors?id={{item.id}}">
+          <image src="{{item.thumb}}" mode="scaleToFill"></image>
+          <view class="iname">{{item.name}}</view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+  <!--teachers lists 课程列表-->
+</view>  
+
+<view class="lastpage" bindtap="goback">return to homepage</view>
+

@@ -1,0 +1,75 @@
+<!--pages/articles/articles.wxml-->
+
+<view class="container-group">
+  <view class="detail-container">
+      <text class="news-title">{{article.home_title}}</text>
+        <view>
+          <text class="news-time">Public Time：{{article.public_time}}</text>
+          <text class="news-autor">Author：{{article.author}}</text>
+        </view>
+        <image class="news-image" src="{{article.home_image}}"></image>
+        <text class="news-content">{{article.news_content}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content1}}</text>
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content2}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content3}}</text>
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content4}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content5}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content6}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content7}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content8}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content9}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content10}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content11}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content12}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content13}}</text> 
+        <view class="ubom"></view>     
+        <text class="news-content">{{article.news_content14}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content15}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content16}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content17}}</text> 
+       
+        <text class="news-content">{{article.news_content18}}</text> 
+        
+        <text class="news-content">{{article.news_content19}}</text> 
+       
+        <text class="news-content">{{article.news_content20}}</text> 
+        <view class="ubom"></view> 
+        <image class="news-image" src="{{article.home_image1}}"></image>
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content21}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content22}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content23}}</text> 
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content24}}</text> 
+        <view class="ubom"></view> 
+        <image class="news-image" src="{{article.home_image2}}"></image>
+        <view class="ubom"></view> 
+        <text class="news-content">{{article.news_content25}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content26}}</text> 
+        <view class="ubom"></view>  
+        <text class="news-content">{{article.news_content27}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content28}}</text> 
+        <view class="ubom"></view>
+        <text class="news-content">{{article.news_content29}}</text> 
+  </view>
+</view> 

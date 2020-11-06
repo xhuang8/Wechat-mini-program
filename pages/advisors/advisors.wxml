@@ -1,0 +1,298 @@
+<!--pages/advisors/advisors.wxml-->
+<view class="main">
+  <view class="utitle">
+    <view class="mtitle">Advisors Group</view>
+  </view>
+
+  <view class="tarea">    
+    <view class="inner">
+      <!--teacher list one-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p6.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Jun Wu</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. of Computer Science, Johns Hopkins University, USA; Bachelor's Degree
+          and master’s degree of Computer Science, Tsinghua University.
+          </view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: He is Silicon Valley Venture Capitalist and one of
+          the early employees in Google, has been participated in many major researches and
+          development projects and served as deputy president of Tencent. He is the author of
+          "On Top Of Tides", "The Beauty Of Mathematics In Computer Science", "The Mystery Of
+          Silicon Valley", and "The Road To College”, etc..
+          </view>
+        </view>
+      </view>  
+      <!--teacher list one-->  
+
+      <!--teacher list two-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p7.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Shaojun Wang</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Electrical and Computer Engineering at University of Illinois at
+          Urbana-Champaign; M.S. in Mathematics at University of Illinois at Urbana-
+          Champaign; M.S. and B.S. in Electrical Engineering at Tsinghua University.  
+          </view>
+          <view class="ubom10"></view>
+          <view class="ilist">
+          Professional Background: Associate Professor at Department of Computer Science and Engineering, Wright State University.
+          </view>
+        </view>
+      </view>
+      <!--teacher list two-->
+
+      <!--teacher list three-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p8.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Gary Tu</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. at University of Texas; M.S. and B.S. at Tsinghua University, Beijing, China.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Postdoctoral at Northwestern University. Cofounder of
+          United Media LLC. Senior Software Engineer, Technology Manager at Motorola.
+          </view>
+        </view>
+      </view>
+      <!--teacher list three-->
+
+      <!--teacher list four-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p9.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Jiayuan Fang</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. at University of California at Berkeley.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Assistant Professor and Associate Professor at the State University of New York at Binghamton 1990-1998.
+          Associate Professor at the University of California at Santa Cruz 1999-2002.
+          </view>
+        </view>
+      </view>
+      <!--teacher list four-->
+    
+      <!--teacher list five-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p10.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Edwin Zou</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Electrical Engineering at George Washington University; M.S. and B.S. in Engineering. in Automation at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Principal Consultant at Zou Consulting. Research Engineer at George Washington University.</view>
+        </view>
+      </view>
+      <!--teacher list five-->
+
+      <!--teacher list six-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Jiandong Yang</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. of E & E at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Visiting Professor at Huazhong University of Science and Technology. Visiting Professor at Wuhan National Laboratory for Optoelectronics.</view>
+        </view>
+      </view>
+      <!--teacher list six-->
+
+      <!--teacher list seven-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Xiaohong Deng</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. at University of Copenhagen, Copenhagen, Denmark, M.S. Northwest Sci-Tech University of Agriculture and Forestry, Xi an, Shanxi, China; B.S. South-West Agriculture University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Postdoctoral in Translational Medicine Center at Stanford University. Assistant research fellow at Chongqing Technology and Business University, Chongqing, China. Technician/project manager at Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China.</view>
+        </view>
+      </view>
+      <!--teacher list seven-->
+
+      <!--teacher list eight-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p11.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Jay Tang</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Applied Computational Physics at University of Electro-Communications, Tokyo, Japan; M.S. in Computational and Theoretical Physics at Tsinghua University, Beijing, China.; B.S. in Modern Physics at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Technical Lead and Principal DevOp Engineer at SLAC, Stanford University. Research Scientist at Oak Ridge National Lab.</view>
+        </view>
+      </view>
+      <!--teacher list eight-->
+
+      <!--teacher list nine-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Chang Wang</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. at Purdue University; M.S. at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Postdoctoral research scientist at University of California at Berkeley. Postdoctoral research scientist at Howard Hughes Medical Institute and Northwestern University. Founder and CEO at Neobio system, Inc.. Product Manager at Axon Instruments, Inc..</view>
+        </view>
+      </view>
+      <!--teacher list nine-->
+
+      <!--teacher list ten-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p4.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Bin Li</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Applied Mathematics at Tsinghua University; M.S. in Computer Science at Stanford University; B. S. in Applied Mathematics at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Lecturer certificate at Tsinghua University. Co-founder and CTO of Seedonk (Tianjin) Inc..</view>
+        </view>
+      </view>
+      <!--teacher list ten-->
+
+      <!--teacher list 11-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Qing Xiao</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. at University of Cincinnati; M.S. in Molecular Physiology at University of Cincinnati; B.S. in Computer Science and Biology at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Quant Specialist at American Century Investments. Principal Engineer at Microsoft. Principal Research Engineer at Yahoo.</view>
+        </view>
+      </view>
+      <!--teacher list 11-->
+
+      <!--teacher list 12-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr.Changchao Gu</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Operations Management at Tsinghua University; MBA in Operations Management at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Secretary-General of the Global Leadership Program at Tsinghua University. Vice-dean of the HR Committee at China’s Academy of Management.</view>
+        </view>
+      </view>
+      <!--teacher list 12-->
+
+      <!--teacher list 13-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Miss Tina Sheng</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: M.A. in Education at Stanford University; B.A. in Comparative Literature at Capital Normal University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Mandarin/Social Studies Teacher at Aptos Middle School, SFUSD. Director of Residential Academic Services at Archbishop Riordan High School.</view>
+        </view>
+      </view>
+      <!--teacher list 13-->
+
+      <!--teacher list 14-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Miss Shelby Song</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: M.S. in Public Policy at Harvard University, M.S. in Political Science at University of Chicago; B.A. in Japanese Studies at Wellesley College.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Enterprise Risk Management Analyst at UC Berkeley. Internal Auditor at Oakland Housing Authority.</view>
+        </view>
+      </view>
+      <!--teacher list 14-->
+
+      <!--teacher list 15-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Mrs. Veronika Pu</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: MBA at North Dakota State University; MSEE in Electronics Engineering at Tsinghua University.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: CEO at Argent Investment Corp.</view>
+        </view>
+      </view>
+      <!--teacher list 15-->
+
+      <!--teacher list 16-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Miss Claire Gao</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: MBA at University of Pennsylvania – The Wharton School; B.S. at Tsinghua University, Beijing, China.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Senior Manager at Deloitte.</view>
+        </view>
+      </view>
+      <!--teacher list 16-->
+
+      <!--teacher list 17-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/logo.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Mr. Xiaofeng Shao</view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: M.S. at Tsinghua University, Beijing, China; B.S. at Tsinghua University, Beijing, China.</view>
+          <view class="ubom10"></view>
+          <view class="ilist">Professional Background: Research fellow and deputy director at Centre for High-speed Rail Technology (CHRT), Tsinghua, China.</view>
+        </view>
+      </view>
+      <!--teacher list 17-->
+    </view>
+  </view>
+</view>

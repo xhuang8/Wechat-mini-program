@@ -1,0 +1,154 @@
+/* pages/contact/contact.wxss */
+.main {
+  font-size:32rpx;
+  font-family:'Microsoft YaHei';
+  color:#555
+}
+
+.topthumb {
+  width: 100%;
+  height: 390rpx;
+}
+
+.topthumb image {
+  width: 100%;
+  height: 390rpx;
+}
+
+/*contact title*/
+.utitle {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+  margin: 10rpx auto;
+}
+
+.mtitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  color:#000;
+}
+/*contact title*/
+
+/*text content*/
+view.text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 15px;
+  color: #656565;
+   background-color: #ccc;
+}
+
+view.text text {
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+view.text2 {
+  text-indent:40rpx;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 30rpx;
+  line-height:50rpx;
+  color: #656565;
+}
+
+view.text3 {
+  width: 92%;
+  margin:auto;
+  line-height:50rpx;
+  align-items: center;
+  position: relative;
+  font-size: 30rpx;
+  color: #656565;
+}
+/*text content*/
+
+/*qr code*/
+.qrcode {
+  width: 100%;
+  margin: 5rpx auto;
+}
+/*qr code*/
+
+/*contact icon*/
+.address {
+  flex-direction: column;
+  margin: 10rpx auto auto 20rpx;
+  width: 100%;
+  height: 100rpx;
+}
+
+.address image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.address text {
+  font-size: 30rpx;
+  position: relative;
+  margin-left: 20rpx;
+  color: #656565;
+}
+
+.phone {
+  flex-direction: column;
+  margin: 0 auto auto 20rpx;
+  width: 100%;
+  height: 100rpx;
+}
+
+.phone image {
+  width: 40rpx;
+  height: 40rpx; 
+}
+
+.phone text {
+  font-size: 30rpx;
+  position: relative;
+  margin-left: 20rpx;
+  color: #656565;
+}
+
+.emails {
+  flex-direction: column;
+  margin: 0 auto auto 20rpx;
+  width: 100%;
+  height: 100rpx;
+}
+
+.emails image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.emails text {
+  font-size: 30rpx;
+  position: relative;
+  margin-left: 20rpx;
+  color: #656565;
+}
+
+.social {
+  flex-direction: column;
+  margin: 0 auto auto 20rpx;
+  width: 100%;
+  height: 100rpx;
+}
+
+.social image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.social text {
+  font-size: 30rpx;
+  position: relative;
+  margin-left: 20rpx;
+  color: #656565;
+}
+/*contact icon*/

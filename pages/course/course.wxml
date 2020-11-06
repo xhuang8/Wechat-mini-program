@@ -1,0 +1,39 @@
+<!--pages/course/course.wxml-->
+<view class="main">
+
+  <!--pictures 图片展示-->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+    <block wx:for="{{movies}}" wx:for-index="index">  
+      <swiper-item>  
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item>  
+    </block>  
+  </swiper> 
+  <!--pictures 图片展示-->
+
+  <!--course lists 课程列表-->
+   
+
+    <view class="utitle">
+      <view class="mtitle">USJ Workshop Training Program</view>
+    </view> 
+
+    <view class="introduct">
+      <view class="inner">
+        <block wx:for-items="{{courses}}" wx:key="{{item.id}}">
+          <navigator wx:if="{{item.id % 2 != 0}}" class="pleft" url="/pages/details/details?id={{item.id}}">
+            <image src="{{item.thumb}}" mode="scaleToFill"></image>
+            <view class="iname">{{item.name}}</view>
+          </navigator>
+        
+          <navigator wx:if="{{item.id % 2 == 0}}" class="pright" url="/pages/details/details?id={{item.id}}">
+            <image src="{{item.thumb}}" mode="scaleToFill"></image>
+            <view class="iname">{{item.name}}</view>
+          </navigator>
+        </block>
+      </view>
+      
+    </view> 
+ 
+    <!--course lists 课程列表-->    
+</view>  

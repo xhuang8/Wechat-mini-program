@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/course/course",
+    "pages/teacher/teacher",
+    "pages/history/history",
+    "pages/contact/contact",
+    "pages/details/details",
+    "pages/tdetails/tdetails",
+    "pages/advisors/advisors",
+    "pages/articles/articles",
+    "pages/cdetails/cdetails"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "USJEdu",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/首页.jpg",
+        "iconPath": "images/首页.jpg",
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "selectedIconPath": "images/教育.jpg",
+        "iconPath": "images/教育.jpg",
+        "pagePath": "pages/course/course",
+        "text": "Course"
+      },
+      {
+        "selectedIconPath": "images/关于.jpg",
+        "iconPath": "images/关于.jpg",
+        "pagePath": "pages/history/history",
+        "text": "About"
+      },
+      {
+        "selectedIconPath": "images/用户.jpg",
+        "iconPath": "images/用户.jpg",
+        "pagePath": "pages/contact/contact",
+        "text": "Contact"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "functionalPages": true
+}

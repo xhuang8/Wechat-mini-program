@@ -1,0 +1,60 @@
+<!--pages/contact/contact.wxml-->
+<view class="main">
+
+  <!--top pictures-->
+  <view class="topthumb">
+    <image src="/images/contact.jpg" mode="scaleToFill"></image>
+  </view>
+  <!--top pictures-->
+
+  <!--contact us-->
+  <view class="utitle">
+    <view class="mtitle">About us</view>
+  </view> 
+
+  <view class="text2">
+    The first Chinese institution founded USJ in Silicon Valley, 
+    which is the facility of the level of graduate university that specialize in artificial intelligence, 
+    big data, engineering management, and self-marketing.  
+  </view>
+  <!--contact us-->
+
+  <!--contact method-->
+  <view class="utitle">
+    <view class="mtitle">Contact us</view>
+  </view>
+
+  <view>
+    <view class="address">
+      <image src="/images/address.jpg" />
+      <text>1631 N 1st Street, ST200, San Jose, CA 95112</text>
+    </view>
+
+    <view class="phone">
+      <image src="/images/phone.jpg" />
+      <text>408-571-6516</text>
+    </view>
+
+    <view class="emails">
+      <image src="/images/email.jpg" />
+      <text>usj@usjus.org</text>
+    </view>
+
+    <view class="social">
+      <image src="/images/wechat.jpg" />
+      <text>UniversityofSanJose</text>
+    </view>
+  </view>  
+  <!--contact method-->
+
+  <!--scan the qr code-->
+  <view class="utitle">
+    <view class="mtitle">Scan us</view>
+  </view>
+
+  <view class="text3">
+    <image src="/images/qr.jpg" class="qrcode" mode="widthFix"></image>
+  </view>
+  <!--scan the qr code-->
+  
+</view>  

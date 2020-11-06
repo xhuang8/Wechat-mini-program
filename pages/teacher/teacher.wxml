@@ -1,0 +1,129 @@
+<!--pages/teacher/teacher.wxml-->
+<view class="main">
+  <view class="utitle">
+    <view class="mtitle">Instructors Team</view>
+  </view>
+
+  <view class="tarea">
+    <view class="utitle1">
+      <view class="mtitle1">President of USJ</view>
+    </view>
+    
+    <view class="inner">
+      <!--teacher list one-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p1.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr. Claude Wang
+            <text class="styles">(President of USJ)</text>
+          </view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Senior international education specialist, founded Chengdu Gocean Education Group in 1996, and has served as chairman. 
+          He has served as chairman in Gosvea (Claudedu Group) which founded in 2013, and established USJ in 2014 and has served as the founder.
+          </view>
+        </view>
+      </view>  
+      <!--teacher list one-->
+    </view>   
+
+      <!--teacher list two-->
+      <view class="utitle1">
+        <view class="mtitle1">School of Big Data of USJ</view>
+      </view>
+
+    <view class="inner">
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p2.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Dr. Jim Hao
+            <text class="styles">(VP and Dean)</text>
+          </view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Dr. Hao received his PhD of Computer Science at Tsinghua University. 
+          He is a senior scientist at Oracle, a big data expert at USJ. 
+          He has worked for Peoplesoft, Ebay, Visa, Boeing, Apple etc.
+          </view>
+        </view>
+      </view>
+      <!--teacher list two-->
+
+      <!--teacher list three-->
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p3.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">Victor Zou
+            <text class="styles">(Executive Dean)</text>
+          </view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Victor received his Master’s Degree in Management Information System from Texas Tech University. 
+          He is now a senior Oracle DBA, and has led many software development projects.
+          </view>
+        </view>
+      </view>
+      <!--teacher list three-->
+    </view>
+
+      <!--teacher list four-->
+      <view class="utitle1">
+        <view class="mtitle1">IntlMAEC Business School of USJ</view>
+      </view>
+
+    <view class="inner">
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p4.jpg" />
+        </view>
+        
+        <view class="teacherinfo">
+          <view class="ilist">Dr. Bin Li
+            <text class="styles">(VP and Dean)</text>
+          </view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Ph.D. in Applied Mathematics at Tsinghua University. 
+          M.S. in Computer Science at Stanford University. 
+          Professional Background: Lecturer certificate in Tsinghua University. 
+          Co-founder and CTO of Seedonk Tianjin Inc..
+          </view>
+        </view>
+      </view>
+      <!--teacher list four-->
+    </view>
+      <!--teacher list five-->
+      <view class="utitle1">
+        <view class="mtitle1">School of Blockchain of USJ</view>
+      </view>
+
+    <view class="inner">
+      <view class="teacherlist">
+        <view class="teacherimg">
+          <image src="/images/p5.jpg" />
+        </view>
+
+        <view class="teacherinfo">
+          <view class="ilist">XiaoMing Tian
+            <text class="styles">(Executive Director)</text>
+          </view> 
+          <view class="ubom10"></view>
+          <view class="ilist">Profile: Andy Tian is a professor of University of San Jose. 
+          Combined his Master’s Degrees from USC and CMU, with years of experiences of product demand forecasting and inventory management using big data infrastructure and deep learning technology in Walmart Labs, Andy Tian makes himself an expert on Deep Learning Technology.
+          </view>
+        </view>
+      </view>
+      <!--teacher list five-->
+    </view>
+  </view>
+  <view class="ubom10"></view>
+  <view class="ubom10"></view>
+  <view class="ubom10"></view>
+</view>
+
+

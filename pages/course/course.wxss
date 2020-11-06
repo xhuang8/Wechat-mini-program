@@ -1,0 +1,88 @@
+/* pages/course/course.wxss */
+.main {
+  font-size: 32rpx;
+  font-family: 'Microsoft YaHei';
+  color: #555;
+}
+
+.tarea {
+  width: 100%;
+}
+
+/*Carousel 轮播图设置*/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+/*Carousel 轮播图设置*/
+
+/*courses title*/
+.utitle {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.mtitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  color:#000;
+}
+
+.utitle1 {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+  margin: 10rpx auto;
+}
+
+.mtitle1 {
+  font-size: 35rpx;
+  font-weight: bold;
+  color:#000;
+}
+/*courses title*/
+
+/*courses lists*/
+.introduct {
+  width: 100%;
+  background:#fff;
+}
+
+.inner {
+  width: 96%;
+  margin: 20rpx auto;
+}
+
+.introduct image {
+  width: 100%;
+  height: 250rpx;
+  border-radius: 12rpx;
+}
+
+.pleft {
+  float:left;
+  width:49%;
+  height:320rpx;
+}
+
+.pright {
+  float:right;
+  width:49%;
+  height:320rpx;
+}
+
+.iname {
+  width:100%;
+  text-align:center;
+  height:50rpx;
+  line-height:50rpx;
+}
+/*courses lists*/

@@ -1,0 +1,91 @@
+/* pages/teacher/teacher.wxss */
+.main {
+  font-size: 26rpx;
+  font-family: 'Microsoft YaHei';
+  color:#555;
+}
+
+/*title*/
+.utitle {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+  margin: 0 auto 10rpx auto;
+}
+
+.mtitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  color:#13227a;
+}
+/*title*/
+
+/*small title*/
+.utitle1 {
+  width: 100%;
+  height: 50rpx;
+  text-align: left;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.mtitle1 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color:rgb(245, 181, 4);
+  margin: 0 auto auto 15rpx;
+}
+/*small title*/
+
+/*teacher list*/
+.inner {
+  width: 98%;
+  margin: 10rpx auto;
+}
+
+.teacherlist {
+  width: 98%;
+  height: 320rpx;
+  margin: 15rpx auto;
+  border-bottom: 1px solid #eee;
+}
+
+.teacherimg {
+  float: left;
+  width: 20%;
+  height: 50%;
+}
+
+.teacherimg image {
+  float: left;
+  width:  100%;
+  height: 100%;
+  border-radius:15rpx;
+}
+
+.teacherinfo {
+  float: left;
+  width: 76%;
+  text-align: left;
+  line-height: 30rpx;
+  margin-left: 3%;
+}
+
+.teacherinfo  .ilist {
+  clear: both;
+}
+
+.teacherinfo .styles {
+  margin-left: 20rpx;
+  background:rgb(167, 162, 162);
+  border-radius:5rpx;
+  padding: 5rpx;
+  color:#fff;
+}
+/*teacher list*/
+
+.ubom10 {
+  clear: both;
+  height: 10rpx;
+}

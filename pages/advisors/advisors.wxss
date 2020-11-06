@@ -1,0 +1,67 @@
+/* pages/advisors/advisors.wxss */
+.main {
+  font-size: 26rpx;
+  font-family: 'Microsoft YaHei';
+  color:#555;
+}
+
+/*title*/
+.utitle {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+}
+
+.mtitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  color:#13227a;
+}
+/*title*/
+
+/*teacher list*/
+.inner {
+  width: 98%;
+  margin: 0rpx auto;
+}
+
+/*teacher list 1*/
+.teacherlist {
+  width: 98%;
+  height: 460rpx;
+  margin: 20rpx auto;
+  border-bottom: 1px solid #eee;
+}
+
+.teacherimg {
+  float: left;
+  width: 20%;
+  height: 35%;
+}
+
+.teacherimg image {
+  float: left;
+  width:  100%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+/*teacher list 1*/
+
+.teacherinfo {
+  float: left;
+  width: 76%;
+  text-align: left;
+  line-height: 30rpx;
+  margin-left: 3%;
+}
+
+.teacherinfo  .ilist {
+  clear: both;
+}
+/*teacher list*/
+
+.ubom10 {
+  clear: both;
+  height: 10rpx;
+}

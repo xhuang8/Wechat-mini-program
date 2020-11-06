@@ -1,0 +1,89 @@
+/* pages/tdetails/tdetails.wxss */
+.main {
+  font-size: 32rpx;
+  font-family: 'Microsoft YaHei';
+  color: #555;
+}
+
+.topthumb {
+  width: 100%;
+  height: 390rpx;
+}
+
+.topthumb image {
+  width: 100%;
+  height: 390rpx;
+}
+
+/*courses title*/
+.utitle {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background: #fff;
+  margin-top: 20rpx auto;
+}
+
+.mtitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  color:#000;
+  margin: 20rpx auto;
+}
+/*courses title*/
+
+/*courses lists*/
+.introduct {
+  width:100%;
+  background:#fff;
+}
+
+.inner {
+  width:96%;
+  margin:20rpx auto;
+}
+
+.introduct image {
+  width: 100%;
+  height: 250rpx;
+  border-radius:12rpx;
+}
+
+.pleft {
+  float: left;
+  width: 42%;
+  height: 320rpx;
+  margin: 0 auto auto 20rpx;
+}
+
+.pright {
+  float: right;
+  width: 42%;
+  height: 320rpx;
+  margin: 0 20rpx auto auto;
+}
+
+.iname {
+  width: 100%;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+/*courses lists*/
+
+/*return page*/
+.lastpage {
+  width:100%;
+  height:90rpx;
+  line-height:90rpx;
+  position:fixed;
+  bottom:0;
+  color:#fff;
+  text-align:center;
+  background:#000;
+  filter:alpha(opacity=80); 
+  -moz-opacity:0.8; 
+  -khtml-opacity: 0.8; 
+  opacity: 0.8;
+}
+/*return page*/

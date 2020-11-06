@@ -1,0 +1,91 @@
+<!--pages/details/details.wxml-->
+<view class="main">
+  <view class="topthumb">
+    <image src="/images/bg.jpg" mode="scaleToFill"></image>
+  </view>
+
+  <view class="inner">
+    <view class="utitle">
+      <view class="liy"></view>
+      <text>{{course.uname}}</text>
+    </view>
+
+    <view class="">
+    
+      <view class="tltitle">{{course.sorts}}</view>
+      <view class="tltitle">{{course.sorts1}}</view>
+      <view class="tltitle">{{course.sorts2}}</view>
+
+      <!--title-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.title}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail}}</view>
+      <view class="udetail">{{course.detail1}}</view>
+      <!--title-->
+       
+      <!--code--> 
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.code}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail2}}</view>
+      <!--code-->
+
+      <!--lecturer-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.lecturer}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail3}}</view>
+      <!--lecturer-->
+
+      <!--module-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.module}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail4}}</view>
+      <!--module-->
+
+      <!--content-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.content}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail5}}</view>
+      <view class="udetail">{{course.detail6}}</view>
+      <!--content-->
+
+      <!--Objectives-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.aims}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail7}}</view>
+      <!--Objectives-->
+
+      <!--time-->
+      <view class="tltarea">
+        <view class="lid"></view>
+        <text>[{{course.time}}]</text>
+      </view>
+      <view class="ubom10"></view>
+		  <view class="udetail">{{course.detail8}}</view>
+      <view class="ubom10"></view>
+      <view class="ubom10"></view>
+      <view class="ubom10"></view>
+      <!--time-->
+
+    </view>
+  </view>
+</view>
+
+

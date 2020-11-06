@@ -1,0 +1,94 @@
+<!--pages/history/history.wxml-->
+<view class="main">
+
+  <!--history-->
+  <view class="utitle">
+    <view class="mtitle">The History</view>
+  </view>
+
+  <view class="topthumb">
+    <image src="http://usjus.org/wp-content/uploads/2016/10/IMG_2588.jpg" />
+  </view>
+
+  <view class="text2">
+    Gosvea Education Service Inc. (Gosvea) is an incorporated company registered in California. 
+    It is responsible for Artificial Intelligence Technology Career Trainings and Information Technology Services, carrying out the Higher Education Cooperation between USA and China, developing the Online Courses, and providing International Study Tours Services. 
+    At the same time, Gosvea is doing its best to build the University of San Jose (USJ) which was founded in the Silicon Valley and focuses on the trainings of AI Talents with the spirit of Silicon Valley Artisans.
+  </view>
+  <view class="text2">  
+    “Gosvea” means “Gocean Silicon Valley Education Academy”. The parents company of Gosvea is Sichuan Gocean Co. located in Chengdu, China, an education group founded by Dr. Yun Wang in 1997, 
+    which focuses on IT International Certification Education, IT Vocational Education, Education Investment, Human Resources Services, IT Outsourcing Services, etc. .
+    Gosvea’s aim is to build an education group focusing on AI Careers Program Development, AI Talents Training and AI Technology Services.
+  </view>
+
+  <!--the concept-->
+  <view class="utitle">
+    <view class="mtitle">The Concept</view>
+  </view>
+
+  <view class="topthumb">
+    <image src="/images/environment/h1.jpg" />
+  </view>
+
+  <view class="text2">
+  Gosvea will form the AI technologies and the talents through the international education services, and provide the Value-Added Services to the world.
+  </view>
+  <!--the concept-->
+
+  <!--about usj-->
+  <view class="utitle">
+    <view class="mtitle">About USJ</view>
+  </view>
+
+  <view class="topthumb">
+    <image src="/images/environment/h2.jpg" />
+  </view>
+
+  <view class="text2">
+  USJ(University of San Jose) will offer arts & science colleges (San Jose College of USJ) and
+  professional schools (starting with Information Technology School, Business School, 
+  Kindergarten Training School, School of Nursing, School of Continuing Education, 
+  ESL (English as Second Language) School, USJ Claude Normal School, USJ Blockchain School). 
+  USJ will also provide a corresponding system to help carry out professional training and educational service. 
+  All academic programs will include such core modules as general education, liberal arts, professional training, and business practice.    
+  </view>
+  <!--history-->
+
+  <!--Learning Environment-->
+  <view class="utitle">
+    <view class="mtitle">Learning Environment</view>
+  </view>
+
+  <view class="topthumb">
+    <image src="http://usjus.org/wp-content/uploads/2016/10/1_13_16_4.jpg" />
+  </view>
+
+  <view class="text2">
+  USJ’s faculty will come from Silicon Valley based enterprises and universities. 
+  It takes advantages of Silicon Valley’s Hi-Tech professionals, through international education, 
+  to form its own strength in technology and human resource, to return to the community. 
+  USJ will also actively support students in starting their own business and innovations. 
+  USJ will collaborate with Silicon Valley’s innovative organizations to establish a business incubating zone, 
+  helping students develop comprehensively in education, professionalism and entrepreneurship.
+  </view>
+  <!--Learning Environment-->
+
+  <!--Research & Collaboration-->
+  <view class="utitle">
+    <view class="mtitle">Research & Collaboration</view>
+  </view>
+
+  <view class="topthumb">
+    <image src="http://usjus.org/wp-content/uploads/2017/03/9.jpg" />
+  </view>
+
+  <view class="text2">
+  USJ emphasizes international collaboration, advocates inclusion and tolerance. 
+  It strives to develop students’ independent qualities and free spirits, 
+  and encourage them to serve the world as their duty, and advance human civilization as their ultimate goal.
+  Following the modern innovative development model, USJ(University of San Jose) will take an earnest effort to consolidate resources, 
+  recruit and train its faculty, collaborate with enterprises in a flexible fashion, 
+  and ultimately establish a multi-campus comprehensive university with various disciplines.
+  </view>
+  <!--Research & Collaboration-->
+</view>
